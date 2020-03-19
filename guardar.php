@@ -3,17 +3,6 @@
      $insertar=$_POST['nombre'];
      $add="INSERT INTO coders values('','$insertar', '1')";
      $query=mysqli_query($conexion, $add);
+     echo'VCTIMA AÑADIDA |';
+     echo "<a href='index.html'> Volver</a>";
 ?>
-
-<!DOCTYPE html>
-<html lang="es">
-<head>
-     <meta charset="UTF-8">
-     <title>Vicitma Añadida</title>
-</head>
-<body>
-     <h1>VICTIMA AÑADIDA</h1>
-     <a href="INDEX.PHP">Volver</a>
-</body>
-</html>
-
